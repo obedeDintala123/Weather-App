@@ -99,3 +99,13 @@ gap: 25px;
 .humidity, .wind-speed{
     font-size: 25px;
 }
+
+@media only screen and (max-width: 768px){
+    .water-icone{
+        display: none;
+    }
+
+    .speed-icone{
+        display: none;
+    }
+}

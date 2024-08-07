@@ -102,10 +102,10 @@ gap: 25px;
 
 @media only screen and (max-width: 768px){
     .water-icone{
-        background: red;
+        display: none;
     }
 
     .speed-icone{
-        background: red;
+        display: none;
     }
 }

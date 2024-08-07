@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="sun.svg" type="image/x-icon">
+    <title>Weather App</title>
+</head>
+<body>
+    <form class="weather-container" method="get">
+
+        <div class="search-content">
+            <input type="text" placeholder="Enter the city" name="search-input" class="search-input">
+            <button type="button" class="search-button">
+                <img src="search.svg" alt="Search">
+            </button>
+        </div>
+
+        <div class="country-clime">
+            <img src="sun.svg" alt="Sun" srcset="" class="sun">
+            <span class="temperature">0ºC</span>
+            <span class="country">No City</span>
+        </div>
+
+        <div class="hum-sp">
+
+            <div class="hum-content">
+                <img src="water.svg" alt="droplet" srcset="">
+
+                <div class="humidity-text">
+                    <span class="humidity">0%</span>
+                    <span>Humidity</span>
+                </div>
+            </div>
+
+            <div class="speed-content">
+                <img src="speed.svg" alt="wind-speed">   
+
+                <div class="speed-text">
+                    <span class="wind-speed">0.00km/h</span>
+                    <span>Wind Speed</span>
+                </div>
+            </div>
+            
+        </div>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
